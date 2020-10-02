@@ -1,29 +1,23 @@
 /*Global*/
 .content {
-    width: 630px;
-    margin: 0 auto;
-    padding-top: 100px;
-}
+  width: 630px;
+  margin: 0 auto;
+  padding-top: 100px; }
 
 .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+  content: "";
+  clear: both;
+  display: table; }
 
 /*div*/
-
 div:nth-child(even) {
-    width: 90px;
-    height: 90px;
-    background-color: white;
-    float: left;
-}
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  float: left; }
 
 div:nth-child(odd) {
-    width: 90px;
-    height: 90px;
-    background-color: black;
-    float: left;
-}
-
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  float: left; }

@@ -1,0 +1,34 @@
+@import'./Mixins/mixins';
+
+$ancho: 90px;
+$alto: 90px;
+$oscuro: black;
+$claro: white;
+
+/*Global*/
+.content {
+    @include medida;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*div*/
+
+div:nth-child(even) {
+    width: $ancho;
+    height: $alto;
+    background-color: $claro;
+    float: left;
+}
+
+div:nth-child(odd) {
+    width: $ancho;
+    height: $alto;
+    background-color: $oscuro;
+    float: left;
+}
+
